@@ -2,7 +2,7 @@
 
 ## Description
 
-Python-SSH-Remote-Control is a simple SSH communication app that allows you to transmit commands or messages through a LAN or World Wide Network. It uses the paramiko library to establish an SSH connection to a remote server and execute commands on the server.
+Python-SSH-Remote-Control is a simple SSH communication app that allows you to transmit commands or messages through a LAN or World Wide Network. It uses Socket to establish an SSH connection to a remote server and execute commands on the server.
 
 ## Features
 
@@ -30,7 +30,3 @@ or on server side
 ```python server.py```
 
 You will be prompted to enter the IP address and the Port of the SSH server. Once you have entered the credentials, the app will connect to the server and execute the commands that you specify.
-
-## Additional Notes
-
-Python-SSH-Remote-Control is a simple SSH Python app, It uses socket for connection.
